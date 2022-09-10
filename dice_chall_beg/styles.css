@@ -1,0 +1,28 @@
+body{
+  padding-top: 5%;
+  text-align: center;
+  background-color: #293462;
+}
+
+.header{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 5rem;
+  color: #FEB139;
+}
+
+.main-dices{
+  padding: 7% 15%;
+}
+
+.dice-left{
+  padding-left: 10%;
+}
+
+.dice-right{
+  padding-right: 10%;
+}
+
+footer{
+  color: #FEB139;
+  padding-top: 3%
+}

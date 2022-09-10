@@ -1,0 +1,14 @@
+{
+  "name": "weather_forecasting",
+  "version": "1.0.0",
+  "description": "Small forecasting app",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Guevara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

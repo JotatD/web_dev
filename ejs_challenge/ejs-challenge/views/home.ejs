@@ -1,0 +1,14 @@
+<%- include('partials/header.ejs'); -%>
+
+<h1>Hello</h1>
+<p><%= content %></p>
+
+<% posts.forEach(function(post){ %>
+  <h1> <%= post.title %></h1>
+  <div>
+      <p class="truncate"> <%= post.body %></p>
+      <a href=<%= "posts/" + lodash.kebabCase(post.title) %>>Read More</a>
+  </div>
+  <%});%>
+
+<%- include('partials/footer.ejs'); -%>

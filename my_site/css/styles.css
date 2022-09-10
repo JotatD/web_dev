@@ -1,0 +1,134 @@
+h1{
+  margin-top: 0;
+  font-family: 'Monoton', cursive;
+  font-size: 3.5rem;
+  color: #85586F;
+}
+
+h2{
+  font-family: 'Major Mono Display', monospace;
+  color: #7D1E6A;
+  line-height: 2;
+  margin: 1.5rem;
+}
+
+h3{
+  font-family: 'Major Mono Display', monospace;
+  color: #7D1E6A;
+}
+
+hr{
+  width: 10%;
+  border-style: none none dotted none;
+  border-width: 10px;
+  border-color: #AC7D88;
+  margin: 3rem auto 3rem;
+}
+
+a{
+  display: inline-block;
+  margin: 1rem;
+  font-family: 'Trispace', sans-serif;
+  color: #7D1E6A;
+}
+
+p{
+  font-family: 'Trispace', sans-serif;
+}
+
+body{
+  text-align: center;
+  margin: 0;
+}
+
+.topdiv{
+  position: relative;
+  background-color: #F8ECD1;
+  padding-top: 5%;
+}
+
+.middlediv{
+  padding-bottom: 2%;
+  background-color: #DEB6AB;
+}
+
+.bottomdiv{
+  background-color: #AC7D88;
+  padding: 2.5%;
+}
+
+.profile{
+  padding-top: 5%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.emphasized{
+  font-style: italic;
+}
+
+.clouds{
+  position: absolute;
+}
+
+.math{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.computer{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.mountains{
+  position: relative;
+  bottom: 0;
+}
+
+
+
+.pfp{
+  width: 200px;
+  border-radius: 100%;
+}
+
+.skillrow{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.toptext{
+  font-family: 'Trispace', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.cloud1{
+  right: 25%;
+  top: 5%;
+}
+
+
+.btn {
+  display: inline-block;
+  margin: 30px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Major Mono Display', monospace;
+  color: #ffffff;
+  font-size: 20px;
+  background: #85586F;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #DEB6AB;
+  text-decoration: none;
+}

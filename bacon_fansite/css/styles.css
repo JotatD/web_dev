@@ -1,0 +1,30 @@
+/************************TAG SELECTORS**********************/
+
+body{
+  background-color: white;
+}
+
+body:hover{
+  background-color: purple;
+}
+
+img:hover{
+  background-color: gold;
+}
+
+/************************CLASS SELECTORS**********************/
+
+.bacon{
+  background-color: red;
+}
+
+.tree:hover{
+  background-color: green;
+  width: 150px;
+  height: 150px;
+}
+
+.circular{
+  border-radius: 100%;
+}
+/************************IDs SELECTORS**********************/
